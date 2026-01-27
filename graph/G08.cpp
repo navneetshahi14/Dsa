@@ -5,6 +5,7 @@
 #include <unordered_map>
 #include <set>
 #include <unordered_set>
+#include <limits.h>
 using namespace std;
 
 void prepareAdjList(unordered_map<int, list<pair<int, int>>> &adj, vector<vector<int>> edges, int vertices, int edge)
