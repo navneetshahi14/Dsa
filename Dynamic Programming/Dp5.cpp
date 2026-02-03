@@ -51,7 +51,7 @@ long long int houseRobber(vector<int> &valueInHouse)
             second.push_back(valueInHouse[i]);
     }
 
-    return max(solve(first),solve(second));
+    return max(solve(first), solve(second));
 }
 
 int main()
